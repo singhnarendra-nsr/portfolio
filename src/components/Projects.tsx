@@ -1,12 +1,13 @@
 import React from 'react';
 import { ExternalLink, Github } from 'lucide-react';
 
+
 const projects = [
   {
     title: 'Real vs. Edited Image Classifier',
     description: 'Deep learning model to detect manipulated images using advanced CNN architecture and transfer learning',
     image: 'https://images.unsplash.com/photo-1633409361618-c73427e4e206?auto=format&fit=crop&q=80&w=800&h=600',
-    tech: ['Python', 'TensorFlow', 'OpenCV', 'Transfer Learning'],
+    tech: ['Python', 'TensorFlow', 'OpenCV', 'CNN'],
     liveUrl: '#',
     githubUrl: '#'
   },
@@ -14,18 +15,19 @@ const projects = [
     title: 'AI-Based Complaint Management',
     description: 'Automated system for classifying and routing customer complaints using NLP and machine learning',
     image: 'https://images.unsplash.com/photo-1549923746-c502d488b3ea?auto=format&fit=crop&q=80&w=800&h=600',
-    tech: ['Python', 'Flask', 'NLP', 'scikit-learn'],
+    tech: ['Python', 'Flask', 'NLP', 'Transformers'],
     liveUrl: '#',
     githubUrl: '#'
   },
   {
-    title: 'Machine Learning Dashboard',
-    description: 'Interactive dashboard for visualizing ML model performance and data analytics',
-    image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=800&h=600',
-    tech: ['Python', 'Streamlit', 'Plotly', 'Pandas'],
-    liveUrl: '#',
-    githubUrl: '#'
-  }
+    title: 'House Price Predictor',
+    description: 'An interactive tool for predicting house prices based on various features such as location, size, and amenities.',
+    image: 'https://thumbor.forbes.com/thumbor/fit-in/1290x/https://www.forbes.com/advisor/wp-content/uploads/2021/12/housing_predictions.jpg',
+    tech: ['Python', 'Scikit-Learn', 'Flask', 'Pandas'],
+    liveUrl: '#',  // Replace with actual live URL if available
+    githubUrl: '#' // Replace with actual GitHub repository URL if available
+}
+
 ];
 
 export default function Projects() {
